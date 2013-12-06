@@ -1,0 +1,150 @@
+/*==============
+	GLOBAL
+===============*/
+body {
+	background: #999;
+	}
+	
+img {
+	max-width: 100%;
+}
+
+/*==============
+	LAYOUT
+===============*/
+.container {
+	margin: 0 auto;
+	width: 95%; /* 960px */
+	max-width: 95%; /* 960px */
+}
+
+nav {
+	background: #039;
+	width: 100%; /* 960px / 960px = 100% */
+}
+
+article {
+	float: left;
+	width: 66.66666666%; /* 640px / 960px = 66.66666666% */
+}
+
+aside {
+	background: #CCC;
+	float: left;
+	width: 33.3333333%; /* 320px / 960px = 33.3333333%*/
+	text-align: left;
+}
+
+
+.facts {
+	float: right;
+	width: 100%;
+}
+
+footer {
+	background:#CCC;
+	clear: both; 
+	width: 100%; /* 960px */
+}
+
+
+/*===============
+	NAV
+===============*/
+ul {
+	padding: 20px;
+	}
+
+nav li {
+	list-style: none;
+	padding: 15px;
+	display: inline;
+	}
+
+nav a {
+	text-decoration: none;
+	}
+
+
+/*===============
+	TYPOGRAPHY
+===============*/
+h1 {
+	font-size: 3em; /* 48px / 16px = 3em */
+}
+
+h2 {
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+}
+
+h3 {
+	font-size: 1.5em; /* 24px /16px = 1.5em */ 
+}
+
+p {
+	font-size: 1.25em; /* 20px */
+	line-height: 1.25em; /* 20px */
+}
+
+dt {
+	font-weight: bold;
+}
+
+/* All Links */ 
+a {
+	color: white;
+	font-size: 1.25em; /* 20px */
+}
+
+footer a {
+	font-size: 1em; /* 20px / 20px = 1em  */
+}
+
+
+/*===============
+	LARGE DESKTOP
+===============*/
+@media screen and ( max-width: 1440px ) {
+	
+	.facts {
+		max-width: 100%;
+	}
+
+
+} 
+/* end of large Desktop */
+
+
+/*===============
+	TABLET
+===============*/
+@media screen and ( max-width: 768px ) {
+	
+	aside {
+		float: none;
+		background: none;	
+	}
+	
+} 
+/* end of tablet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
